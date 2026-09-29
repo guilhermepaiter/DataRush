@@ -1,0 +1,35 @@
+* {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+body {
+    background-image: url(imagens/menuprincipal_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#confi {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.butao {
+    border-radius: 25px;
+    border-color: orange;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 350px;
+    height: 70px;
+    text-align: center;
+    font-size: 35px;
+}
