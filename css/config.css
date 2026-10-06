@@ -5,7 +5,7 @@
 }
 
 #back {
-    background-image: url(../imagens/menuprincipal_bg.png);
+    background-image: url(../imagens/telafundosemlogo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,15 +14,7 @@ a:hover {
     border: 5px solid rgb(255, 157, 0);
 }
 
-.menu {
-    margin-top: 20%;
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.bt-menu {
+.bt {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +24,24 @@ a:hover {
     color: white;
     text-decoration: none;
     font-size: 30px;
-    width: 350px;
-    height: 100px;
+    width: 150px;
+    height: 50px;
+}
+
+.config-menu {
+    border: 7px solid orange;
+    border-radius: 20px;
+    background-color: #000c17;
+    color: white;
+    
+    width: 900px;
+    height: 500px;
+    
+    margin-left: 20%;
+}
+.config-section {
+    background-color: #011527;
+    margin-left: 30px 20px;
+    width: 700px;
+    height: 150px;
 }
