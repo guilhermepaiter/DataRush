@@ -22,16 +22,6 @@ a:hover {
     gap: 15px;
 }
 
-#confi {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.textButao {
-    margin-bottom: 300px;
-    
-}
-
 .bt-menu {
     display: flex;
     align-items: center;
@@ -44,4 +34,18 @@ a:hover {
     font-size: 30px;
     width: 350px;
     height: 100px;
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid orange;
+    border-radius: 15px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
 }
