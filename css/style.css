@@ -11,7 +11,7 @@
 }
 
 a:hover { 
-    color: blue;
+    border: 5px solid rgb(255, 157, 0);
 }
 
 .menu {
@@ -19,6 +19,7 @@ a:hover {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 #confi {
@@ -31,15 +32,16 @@ a:hover {
     
 }
 
-.butao {
-    border-radius: 25px;
-    border-color: orange;
-    border-style: solid;
-    background-color: black;
+.bt-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid orange;
+    border-radius: 15px;
+    background: black;
     color: white;
     text-decoration: none;
-    width: 400px;
+    font-size: 30px;
+    width: 350px;
     height: 100px;
-    text-align: center;
-    font-size: 35px;
 }
