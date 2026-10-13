@@ -11,7 +11,7 @@
 }
 
 a:hover { 
-    border: 5px solid rgb(255, 157, 0);
+    border-color:  rgb(212, 131, 2);
 }
 
 .bt {
@@ -28,20 +28,65 @@ a:hover {
     height: 50px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
 .config-menu {
     border: 7px solid orange;
     border-radius: 20px;
     background-color: #000c17;
     color: white;
-    
     width: 900px;
     height: 500px;
-    
-    margin-left: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 20px
+    ;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
 .config-section {
-    background-color: #011527;
-    margin-left: 30px 20px;
+    border-radius: 50px;
+    background-color: #001c35;
     width: 700px;
-    height: 150px;
+    height: 130px;
+
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 30px;
+    padding-left: 3%;
+}
+/*                                                        
+.volume {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 50px;
+    appearance: none;
 }
